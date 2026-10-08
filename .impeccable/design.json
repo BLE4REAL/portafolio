@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T05:01:29.990Z",
+  "title": "Design System: BLE Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "Coral Action",
+        "tonalRamp": [
+          "oklch(15% 0.1676 30.67)",
+          "oklch(26% 0.1676 30.67)",
+          "oklch(38% 0.1676 30.67)",
+          "oklch(49% 0.1676 30.67)",
+          "oklch(61% 0.1676 30.67)",
+          "oklch(72% 0.1676 30.67)",
+          "oklch(84% 0.1676 30.67)",
+          "oklch(95% 0.1676 30.67)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Light Coral Hover",
+        "tonalRamp": [
+          "oklch(15% 0.1306 29.47)",
+          "oklch(26% 0.1306 29.47)",
+          "oklch(38% 0.1306 29.47)",
+          "oklch(49% 0.1306 29.47)",
+          "oklch(61% 0.1306 29.47)",
+          "oklch(72% 0.1306 29.47)",
+          "oklch(84% 0.1306 29.47)",
+          "oklch(95% 0.1306 29.47)"
+        ]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "Graphite Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0060 236.83)",
+          "oklch(26% 0.0060 236.83)",
+          "oklch(38% 0.0060 236.83)",
+          "oklch(49% 0.0060 236.83)",
+          "oklch(61% 0.0060 236.83)",
+          "oklch(72% 0.0060 236.83)",
+          "oklch(84% 0.0060 236.83)",
+          "oklch(95% 0.0060 236.83)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Exhibit Graphite",
+        "tonalRamp": [
+          "oklch(15% 0.0069 229.11)",
+          "oklch(26% 0.0069 229.11)",
+          "oklch(38% 0.0069 229.11)",
+          "oklch(49% 0.0069 229.11)",
+          "oklch(61% 0.0069 229.11)",
+          "oklch(72% 0.0069 229.11)",
+          "oklch(84% 0.0069 229.11)",
+          "oklch(95% 0.0069 229.11)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Warm White",
+        "tonalRamp": [
+          "oklch(15% 0.0124 91.52)",
+          "oklch(26% 0.0124 91.52)",
+          "oklch(38% 0.0124 91.52)",
+          "oklch(49% 0.0124 91.52)",
+          "oklch(61% 0.0124 91.52)",
+          "oklch(72% 0.0124 91.52)",
+          "oklch(84% 0.0124 91.52)",
+          "oklch(95% 0.0124 91.52)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Gray",
+        "tonalRamp": [
+          "oklch(15% 0.0057 117.95)",
+          "oklch(26% 0.0057 117.95)",
+          "oklch(38% 0.0057 117.95)",
+          "oklch(49% 0.0057 117.95)",
+          "oklch(61% 0.0057 117.95)",
+          "oklch(72% 0.0057 117.95)",
+          "oklch(84% 0.0057 117.95)",
+          "oklch(95% 0.0057 117.95)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Graphite Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0063 228.96)",
+          "oklch(26% 0.0063 228.96)",
+          "oklch(38% 0.0063 228.96)",
+          "oklch(49% 0.0063 228.96)",
+          "oklch(61% 0.0063 228.96)",
+          "oklch(72% 0.0063 228.96)",
+          "oklch(84% 0.0063 228.96)",
+          "oklch(95% 0.0063 228.96)"
+        ]
+      },
+      "media-bg": {
+        "role": "neutral",
+        "displayName": "Media Dark",
+        "tonalRamp": [
+          "oklch(15% 0.0063 236.95)",
+          "oklch(26% 0.0063 236.95)",
+          "oklch(38% 0.0063 236.95)",
+          "oklch(49% 0.0063 236.95)",
+          "oklch(61% 0.0063 236.95)",
+          "oklch(72% 0.0063 236.95)",
+          "oklch(84% 0.0063 236.95)",
+          "oklch(95% 0.0063 236.95)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Condensed Display",
+        "purpose": "Large exhibition headlines."
+      },
+      "headline": {
+        "displayName": "Condensed Headline",
+        "purpose": "Major section headings."
+      },
+      "title": {
+        "displayName": "Project Title",
+        "purpose": "Manrope title below artwork."
+      },
+      "body": {
+        "displayName": "Reading Text",
+        "purpose": "Descriptions and profile prose."
+      },
+      "label": {
+        "displayName": "Action Label",
+        "purpose": "Primary project links and model launch."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Control transforms, navigation underline and artwork hover."
+      },
+      {
+        "name": "control-duration",
+        "value": "180ms",
+        "purpose": "Primary action background and transform; navigation underline."
+      },
+      {
+        "name": "selector-dissolve",
+        "value": "180ms ease-out",
+        "purpose": "Outgoing featured-art layer after incoming image decode; bypassed for reduced motion."
+      },
+      {
+        "name": "artwork-hover",
+        "value": "550ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Project image scale to 1.035."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Disable transitions, animations, image zoom and button compression; use immediate selector replacement."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet-max",
+        "value": "900px"
+      },
+      {
+        "name": "phone-max",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Coral project action with hover, focus and press feedback.",
+      "html": "<a class=\"ds-primary\" href=\"#project\">Explore VERT</a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:13px 24px;border:1px solid transparent;border-radius:4px;background:var(--accent,#ff7964);color:var(--bg,#191c1e);font-size:14px;font-weight:700;font-family:var(--body,'Manrope',sans-serif);text-decoration:none;transition:background 180ms ease,transform 180ms cubic-bezier(.16,1,.3,1)}.ds-primary:hover{background:#ff9585}.ds-primary:active{transform:scale(.97)}.ds-primary:focus-visible,.ds-close:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-selector:focus-visible,.ds-card:focus-visible{outline:2px solid var(--accent,#ff7964);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}.ds-primary:active{transform:none}}"
+    },
+    {
+      "name": "Close Image",
+      "kind": "button",
+      "refersTo": "button-close",
+      "description": "Quiet explicit close control for the native image dialog.",
+      "html": "<button class=\"ds-close\">Close image</button>",
+      "css": ".ds-close{padding:8px 14px;border:1px solid var(--line,#44484a);background:transparent;color:var(--text,#f3f0e7);border-radius:4px;font-size:16px;line-height:1.65;font-family:var(--body,'Manrope',sans-serif);cursor:pointer}.ds-primary:focus-visible,.ds-close:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-selector:focus-visible,.ds-card:focus-visible{outline:2px solid var(--accent,#ff7964);outline-offset:6px}"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Text navigation with a restrained fine-pointer underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#work\">Work</a><a href=\"#about\">Profile</a><a href=\"#contact\">Contact</a></nav>",
+      "css": ".ds-nav{display:flex;gap:36px;font-family:var(--body,'Manrope',sans-serif);}.ds-nav a{font-size:14px;color:var(--text,#f3f0e7);text-decoration:none;position:relative}.ds-nav a:hover{color:var(--accent,#ff7964)}.ds-primary:focus-visible,.ds-close:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-selector:focus-visible,.ds-card:focus-visible{outline:2px solid var(--accent,#ff7964);outline-offset:6px}@media(hover:hover) and (pointer:fine){.ds-nav a:after{content:'';position:absolute;left:0;right:0;bottom:-7px;height:1px;background:var(--accent,#ff7964);transform:scaleX(0);transform-origin:left;transition:transform 180ms cubic-bezier(.16,1,.3,1)}.ds-nav a:hover:after{transform:scaleX(1)}}@media(prefers-reduced-motion:reduce){.ds-nav a:after{transition:none}}"
+    },
+    {
+      "name": "Project Filters",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "Underlined text filters rather than enclosed pills.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filter projects\"><button class=\"ds-filter ds-active\" aria-pressed=\"true\">All</button><button class=\"ds-filter\" aria-pressed=\"false\">Characters</button></div>",
+      "css": ".ds-filters{display:flex;flex-wrap:wrap;gap:12px 28px}.ds-filter{background:transparent;border:0;border-bottom:1px solid transparent;color:var(--muted,#b7b8b4);padding:8px 0;font-size:14px;font-family:var(--body,'Manrope',sans-serif);cursor:pointer}.ds-filter.ds-active{border-color:var(--accent,#ff7964);color:var(--text,#f3f0e7)}.ds-filter:hover{color:var(--accent,#ff7964)}.ds-primary:focus-visible,.ds-close:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-selector:focus-visible,.ds-card:focus-visible{outline:2px solid var(--accent,#ff7964);outline-offset:6px}"
+    },
+    {
+      "name": "Featured Work Selector",
+      "kind": "custom",
+      "refersTo": "work-selector",
+      "description": "Compact semibold selection controls for the exhibition image.",
+      "html": "<div class=\"ds-selectors\"><button class=\"ds-selector ds-active\" aria-pressed=\"true\">VERT</button><button class=\"ds-selector\" aria-pressed=\"false\">CHENI</button><button class=\"ds-selector\" aria-pressed=\"false\">CAFÉ</button></div>",
+      "css": ".ds-selectors{display:flex;gap:28px}.ds-selector{background:transparent;border:0;padding:10px 0;color:var(--muted,#b7b8b4);font-size:13px;font-weight:600;border-bottom:2px solid transparent;font-family:var(--body,'Manrope',sans-serif);cursor:pointer}.ds-selector.ds-active{color:var(--text,#f3f0e7);border-color:var(--accent,#ff7964)}.ds-selector:hover{color:var(--text,#f3f0e7)}.ds-primary:focus-visible,.ds-close:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-selector:focus-visible,.ds-card:focus-visible{outline:2px solid var(--accent,#ff7964);outline-offset:6px}"
+    },
+    {
+      "name": "Project Card",
+      "kind": "card",
+      "refersTo": "project-card",
+      "description": "Square artwork surface with separate title and supporting metadata; preview frame intentionally contains no substitute artwork.",
+      "html": "<a class=\"ds-card\" href=\"#project\"><div class=\"ds-card-image\" aria-label=\"Artwork frame\"></div><div class=\"ds-card-label\"><h3>Corner Café</h3><span>Environment</span></div></a>",
+      "css": ".ds-card{display:block;text-decoration:none;color:var(--text,#f3f0e7);font-family:var(--body,'Manrope',sans-serif);max-width:520px}.ds-card-image{aspect-ratio:1.58;background:var(--surface,#232729);overflow:hidden}.ds-card-label{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:18px}.ds-card h3{margin:0;font-size:19px;line-height:1.35;font-weight:600}.ds-card span{font-size:12px;color:var(--muted,#b7b8b4);text-align:right}.ds-card:hover h3{color:var(--accent,#ff7964)}.ds-primary:focus-visible,.ds-close:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-selector:focus-visible,.ds-card:focus-visible{outline:2px solid var(--accent,#ff7964);outline-offset:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Graphite Exhibition",
+    "overview": "Graphite Exhibition gives BLE's stylized characters and environments the scale of a screening room. Warm white condensed headlines sit against graphite; coral identifies actions and selected states. Artwork supplies the remaining color and visual complexity.\n\nThe interface uses flat exhibit surfaces, generous intervals and compact reading text. Rectangular media frames hold the work; quiet controls support exploring images, films and orbitable models.",
+    "keyCharacteristics": [
+      "Graphite surfaces and warm white reading text.",
+      "Condensed display type paired with open sans-serif body text.",
+      "Coral actions and selected-state underlines.",
+      "Large rectangular artwork, flat depth and restrained motion."
+    ],
+    "rules": [
+      {
+        "name": "The Artwork Color Rule",
+        "body": "Let the work supply the broad color range; use coral for actions, emphasis and selected states.",
+        "section": "colors"
+      },
+      {
+        "name": "The Flat Exhibit Rule",
+        "body": "Separate surfaces through tone, spacing and thin rules; do not add interface drop shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Motion Access Rule",
+        "body": "Honor reduced motion with immediate state changes and no image zoom or button compression.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do keep supplied artwork and attribution visible in the project experience.",
+      "Do use condensed headlines and Manrope for reading and controls.",
+      "Do preserve square media frames, coral focus outlines and selected-state underlines.",
+      "Do keep video playback native and load interactive models on demand."
+    ],
+    "donts": [
+      "Don't add decorative drop shadows to exhibit surfaces.",
+      "Don't force artwork into the interface palette.",
+      "Don't animate state changes when reduced motion is requested."
+    ]
+  }
+}
