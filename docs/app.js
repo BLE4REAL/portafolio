@@ -5,19 +5,24 @@
     const category = button.dataset.filter;
     filters.forEach(item => { const active = item === button; item.classList.toggle('active', active); item.setAttribute('aria-pressed', String(active)); });
     let visible = 0;
-    projects.forEach(project => { project.hidden = category !== 'All' && project.dataset.category !== category; if (!project.hidden) visible++; });
-    document.querySelector('.project-grid').classList.toggle('filtered', category !== 'All');
+    projects.forEach(project => {
+      const match = category === 'All' || (category === 'Studies' ? project.closest('.studies-grid') : project.dataset.category === category);
+      project.hidden = !match;
+      if (!project.hidden) visible++;
+    });
+    document.querySelectorAll('.project-grid').forEach(grid => grid.classList.toggle('filtered', category !== 'All'));
     document.querySelector('#filter-status').textContent = `${visible} ${visible === 1 ? 'project' : 'projects'} shown`;
-    document.querySelector('.empty-state').hidden = visible !== 0;
+    document.querySelector('.selected-empty').hidden = !!document.querySelector('.selected-grid .project-item:not([hidden])');
+    document.querySelector('.studies-empty').hidden = !!document.querySelector('.studies-grid .project-item:not([hidden])');
   }));
   const features = {
-    vert: { image: 'assets/image4.webp', alt: 'VERT, an original blue stylized character by BLE', href: 'projects/vert.html', label: 'Explore VERT' },
-    cheni: { image: 'assets/image1.webp', alt: 'Cheni, an original orange-cloaked character by BLE', href: 'projects/cheni.html', label: 'Explore CHENI' },
-    cafe: { image: 'assets/image2.webp', alt: 'Corner Café, a complete 3D environment by BLE', href: 'projects/corner-cafe.html', label: 'Explore CAFÉ' }
+    vert: { image: 'assets/image4.webp', alt: 'VERT — stylized character render by BLE', href: 'projects/vert.html', label: 'Explore VERT' },
+    cheni: { image: 'assets/image1.webp', alt: 'Cheni — original character concept; 3D version in development', href: 'projects/cheni.html', label: 'Explore Cheni’s concept' },
+    chest: { image: 'assets/image5.webp', alt: 'Weathered Treasure Chest — stylized prop render by BLE', href: 'projects/treasure-chest.html', label: 'Explore the chest' }
   };
   let featureRequest = 0;
   let outgoingArt;
-  document.querySelectorAll('[data-feature]').forEach(button => button.addEventListener('click', async () => {
+  document.querySelectorAll('[data-feature]').forEach(button => button.addEventListener('click', async event => {
     const request = ++featureRequest;
     const feature = features[button.dataset.feature];
     const image = document.querySelector('#featured-image');
@@ -25,7 +30,7 @@
     try { await preload.decode(); } catch { return; }
     if (request !== featureRequest) return;
     outgoingArt?.remove();
-    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const reduce = event.detail === 0 || matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (!reduce) {
       outgoingArt = image.cloneNode(); outgoingArt.removeAttribute('id');
       outgoingArt.alt = ''; outgoingArt.setAttribute('aria-hidden', 'true');

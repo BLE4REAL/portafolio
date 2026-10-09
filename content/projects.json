@@ -1,0 +1,492 @@
+[
+  {
+    "slug": "vert",
+    "title": "VERT",
+    "kind": "Stylized character",
+    "group": "Characters",
+    "cover": 4,
+    "slides": [
+      9,
+      10
+    ],
+    "intro": "Modeling and UVs in Blender. Textures in Substance 3D Painter.",
+    "tools": [
+      "Blender",
+      "Substance 3D Painter"
+    ],
+    "credits": "Lighting, rigging, animation and rendering by BLE. Rigging by BLE with Blender autorig tools.",
+    "images": [
+      [
+        4,
+        "VERT — character render"
+      ],
+      [
+        15,
+        "VERT — alternate rendered view"
+      ],
+      [
+        16,
+        "VERT — low-angle rendered view"
+      ],
+      [
+        17,
+        "VERT — rear rendered view"
+      ]
+    ],
+    "objective": "Model and present a stylized character, with textured surfaces and a series of rendered views.",
+    "contribution": "Modeling and UVs in Blender; texturing in Substance 3D Painter. Lighting, rigging, animation and rendering by BLE.",
+    "status": "Rendered character presentation. Rigging used Blender autorig tools.",
+    "featured": true
+  },
+  {
+    "slug": "cheni",
+    "title": "Cheni",
+    "kind": "Original character · In development",
+    "group": "Characters",
+    "cover": 1,
+    "slides": [
+      12,
+      13
+    ],
+    "intro": "An original character design, shown alongside its current 3D version.",
+    "tools": [
+      "Blender"
+    ],
+    "credits": "Original character and 3D work by BLE. An autorigging tool assisted the rigging of the current version.",
+    "images": [
+      [
+        1,
+        "Cheni — original concept, front view"
+      ],
+      [
+        21,
+        "Cheni — original concept, back view"
+      ],
+      [
+        22,
+        "Cheni — current 3D version in Blender"
+      ],
+      [
+        23,
+        "Cheni — current 3D version, video preview"
+      ]
+    ],
+    "videos": [
+      [
+        "media1.mp4",
+        23,
+        "Cheni — current 3D version",
+        "Current 3D model in Blender. Rigging assisted by an autorigging tool."
+      ]
+    ],
+    "objective": "Develop an original character from front and back concept drawings into a 3D model.",
+    "contribution": "Original design, modeling, UVs, texturing and presentation by BLE. Rigging assisted by an autorigging tool.",
+    "status": "In development. The original concept and current 3D version are presented here.",
+    "featured": true
+  },
+  {
+    "slug": "treasure-chest",
+    "title": "Weathered Treasure Chest",
+    "kind": "Stylized prop",
+    "group": "Props",
+    "cover": 5,
+    "slides": [
+      11
+    ],
+    "intro": "A stylized prop developed from blockout to final presentation.",
+    "tools": [
+      "Blender",
+      "Maya"
+    ],
+    "credits": "Full pipeline by BLE: modeling, UVs, textures and final render. Created in Blender and textured in Maya.",
+    "images": [
+      [
+        5,
+        "Weathered treasure chest: final render"
+      ],
+      [
+        18,
+        "Treasure chest: alternate view"
+      ],
+      [
+        19,
+        "Surface and texture detail"
+      ],
+      [
+        20,
+        "Interactive model preview"
+      ]
+    ],
+    "models": [
+      [
+        "model3d1.glb",
+        20,
+        "Weathered Treasure Chest",
+        "Textured model extracted from the presentation."
+      ]
+    ],
+    "objective": "Develop a stylized treasure chest from blockout to a textured prop presentation.",
+    "contribution": "Modeling, UVs, textures and final render by BLE. Created in Blender and textured in Maya.",
+    "status": "Rendered prop presentation with the supplied textured 3D model available to explore.",
+    "featured": true
+  },
+  {
+    "slug": "corner-cafe",
+    "title": "Corner Café",
+    "kind": "Environment",
+    "group": "Environments",
+    "cover": 2,
+    "slides": [
+      4,
+      5
+    ],
+    "intro": "Full environment development. Modeling, UVs, texturing, lighting and rendering.",
+    "tools": [
+      "Blender",
+      "Maya"
+    ],
+    "credits": "Full environment by BLE. Created in Blender and textured in Maya.",
+    "images": [
+      [
+        2,
+        "Corner Café — environment render"
+      ],
+      [
+        9,
+        "Café sign and planted edge — rendered detail"
+      ],
+      [
+        10,
+        "Awning and façade — rendered detail"
+      ],
+      [
+        11,
+        "Street corner and sign — rendered detail"
+      ]
+    ],
+    "objective": "Build and present a café environment, including modeling, UVs, textures, lighting and rendering.",
+    "contribution": "Full environment by BLE. Created in Blender and textured in Maya.",
+    "status": "Environment presentation. The gallery shows rendered views and details.",
+    "featured": true
+  },
+  {
+    "slug": "vapo",
+    "title": "Vapo",
+    "kind": "Character + accessories",
+    "group": "Characters",
+    "cover": 24,
+    "slides": [
+      14
+    ],
+    "intro": "A backpack character and its cylindrical accessories, developed in Blender.",
+    "tools": [
+      "Blender"
+    ],
+    "credits": "Modeling, UVs, texturing and presentation by BLE. The available interactive 3D file contains no textures.",
+    "images": [
+      [
+        24,
+        "Vapo — untextured character preview"
+      ],
+      [
+        6,
+        "Vapo — cylindrical accessory renders"
+      ]
+    ],
+    "models": [
+      [
+        "model3d2.glb",
+        24,
+        "Vapo backpack character",
+        "This original model file contains no textures."
+      ]
+    ],
+    "objective": "Model a character with a backpack and a set of cylindrical accessories.",
+    "contribution": "Modeling, UVs, texturing and presentation by BLE in Blender.",
+    "status": "Character and accessory study. The supplied interactive character model has no textures.",
+    "featured": false
+  },
+  {
+    "slug": "honguito",
+    "title": "Honguito",
+    "kind": "Modeling + motion study",
+    "group": "Characters",
+    "cover": 29,
+    "slides": [
+      17
+    ],
+    "intro": "Full 3D project created in Blender.",
+    "tools": [
+      "Blender"
+    ],
+    "credits": "Full 3D work and animation by BLE in Blender.",
+    "images": [
+      [
+        29,
+        "Honguito interactive model preview"
+      ],
+      [
+        28,
+        "Honguito animation preview"
+      ]
+    ],
+    "videos": [
+      [
+        "media2.mp4",
+        28,
+        "Honguito animation",
+        "Model and motion created in Blender."
+      ]
+    ],
+    "models": [
+      [
+        "model3d3.glb",
+        29,
+        "Honguito",
+        "Rotate and explore the original 3D model."
+      ]
+    ],
+    "objective": "Explore a mushroom character through 3D modeling and animation.",
+    "contribution": "3D work and animation by BLE in Blender.",
+    "status": "Model and motion study, with the supplied animation and interactive model.",
+    "featured": false
+  },
+  {
+    "slug": "bl3",
+    "title": "BL3",
+    "kind": "Robot exploration",
+    "group": "Characters",
+    "cover": 12,
+    "slides": [
+      6,
+      7,
+      8
+    ],
+    "intro": "Robot concept, model and environment exploration.",
+    "tools": [
+      "Blender",
+      "Substance 3D Painter",
+      "Procreate"
+    ],
+    "credits": "Concept, robot and environment work by BLE. Rigging assisted by Blender autorig tools. Motherboard modeled, lit and rendered by BLE; textures from a third-party addon whose source is not identified in the portfolio.",
+    "images": [
+      [
+        12,
+        "BL3 — original Procreate concept"
+      ],
+      [
+        3,
+        "BL3 in its environment — rendered scene"
+      ],
+      [
+        13,
+        "BL3 — model and textured comparison"
+      ],
+      [
+        14,
+        "BL3 environment — camera animation workspace"
+      ]
+    ],
+    "objective": "Develop a robot from concept through character and environment production.",
+    "contribution": "Concept in Procreate; modeling, UVs, environment, lighting, camera work and animation in Blender. Robot textures in Substance 3D Painter.",
+    "status": "Concept, model comparison and environment work presented. Rigging assisted by Blender autorig tools.",
+    "featured": false
+  },
+  {
+    "slug": "3d-studies",
+    "title": "3D Studies",
+    "kind": "Form, surface + creatures",
+    "group": "Studies",
+    "cover": 8,
+    "slides": [
+      16
+    ],
+    "intro": "Three Blender studies in form, surface and creature modeling.",
+    "tools": [
+      "Blender"
+    ],
+    "credits": "Gordo Final, Untitled and Wolv: each project was created entirely by BLE in Blender.",
+    "images": [
+      [
+        8,
+        "Wolv: creature study"
+      ],
+      [
+        26,
+        "Gordo Final: form and volume"
+      ],
+      [
+        27,
+        "Untitled: surface and light"
+      ]
+    ],
+    "objective": "Explore form and volume, surface and light, and creature modeling across three Blender projects.",
+    "contribution": "Gordo Final, Untitled and Wolv were created by BLE in Blender.",
+    "status": "A selection of modeling and rendering studies.",
+    "featured": false
+  },
+  {
+    "slug": "character-studies",
+    "title": "Papa + Mama",
+    "kind": "Character modeling studies",
+    "group": "Studies",
+    "cover": 25,
+    "slides": [
+      15
+    ],
+    "intro": "Character modeling by BLE in Blender. Three model variations.",
+    "tools": [
+      "Blender"
+    ],
+    "credits": "The portfolio focuses on the modeling work. Rigs are not part of the showcased deliverables.",
+    "images": [
+      [
+        25,
+        "Papa + Mama — three modeling variations in Blender"
+      ]
+    ],
+    "objective": "Explore character modeling through three model variations.",
+    "contribution": "Character modeling by BLE in Blender.",
+    "status": "Modeling exercise. Rigs are not part of the showcased work.",
+    "featured": false
+  },
+  {
+    "slug": "maya-rigging",
+    "title": "Maya Rigging",
+    "kind": "Rigging",
+    "group": "Motion",
+    "cover": 31,
+    "slides": [
+      18
+    ],
+    "intro": "Rigging by BLE in Maya. Base models: Mixamo.",
+    "tools": [
+      "Maya",
+      "Mixamo"
+    ],
+    "credits": "Base models are from Mixamo. Rigging work by BLE in Maya. Screenshots and video show the rigging process.",
+    "images": [
+      [
+        31,
+        "Maya rigging — character with rig controls"
+      ],
+      [
+        30,
+        "Maya rigging — workspace overview"
+      ],
+      [
+        32,
+        "Maya rigging — creature viewport"
+      ],
+      [
+        33,
+        "Maya rigging — process video preview"
+      ]
+    ],
+    "videos": [
+      [
+        "media3.mp4",
+        33,
+        "Rigging in Maya",
+        "Base models: Mixamo. Rigging: BLE in Maya."
+      ]
+    ],
+    "objective": "Practice character rigging in Maya using existing base models.",
+    "contribution": "Rigging by BLE in Maya. Base models from Mixamo.",
+    "status": "Rigging exercise. Screenshots and video document the work on the supplied base models.",
+    "featured": false
+  },
+  {
+    "slug": "animation-studies",
+    "title": "Character in Motion",
+    "kind": "Animation studies",
+    "group": "Motion",
+    "cover": 34,
+    "slides": [
+      19
+    ],
+    "intro": "Two-angle acting exercise and secondary motion studies.",
+    "tools": [
+      "Blender",
+      "Maya"
+    ],
+    "credits": "Acting exercise: animation by BLE; character and scene assets by others. Secondary studies: animation by BLE in Blender; animation and texturing by BLE in Maya.",
+    "images": [
+      [
+        34,
+        "Secondary motion study — Blender animation"
+      ],
+      [
+        7,
+        "Acting exercise — source frame with exercise instructions"
+      ],
+      [
+        35,
+        "Secondary motion study — Maya animation and texturing"
+      ],
+      [
+        36,
+        "Acting exercise — two-angle video preview"
+      ],
+      [
+        37,
+        "Secondary motion studies — video preview"
+      ]
+    ],
+    "videos": [
+      [
+        "media4.mp4",
+        36,
+        "Two-angle acting exercise",
+        "Animation by BLE. Character and scene assets by others."
+      ],
+      [
+        "media5.mp4",
+        37,
+        "Secondary motion studies",
+        "Blender: animation. Maya: animation + texturing."
+      ]
+    ],
+    "objective": "Practice character acting from two camera angles and explore secondary motion.",
+    "contribution": "Acting animation by BLE. Additional studies include Blender animation and Maya animation and texturing.",
+    "status": "Animation exercises. The acting character and scene assets are by other artists.",
+    "featured": false
+  },
+  {
+    "slug": "slash-vfx",
+    "title": "Slash VFX",
+    "kind": "VFX exploration",
+    "group": "Motion",
+    "cover": 38,
+    "slides": [
+      20
+    ],
+    "intro": "Node-based effect created in Unity.",
+    "tools": [
+      "Unity"
+    ],
+    "credits": "VFX design and implementation by BLE in Unity.",
+    "images": [
+      [
+        38,
+        "Slash VFX — Unity editor view"
+      ],
+      [
+        39,
+        "Slash VFX — video preview"
+      ]
+    ],
+    "videos": [
+      [
+        "media6.mp4",
+        39,
+        "Slash VFX in Unity",
+        "Node-based VFX design and implementation."
+      ]
+    ],
+    "objective": "Explore a node-based real-time slash effect in Unity.",
+    "contribution": "VFX design and implementation by BLE in Unity.",
+    "status": "Real-time VFX exercise, shown in an editor capture and video.",
+    "featured": false
+  }
+]
